@@ -1,0 +1,64 @@
+/* ########### Defaul ########### */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ############## Desktop ########## */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #909090;
+}
+nav{
+    width: 100%;
+    background-color: blue;
+    height: 50px;
+}
+nav ul{
+    list-style: none;
+    padding: 10px;
+}
+nav ul li{
+    float: left;
+    color: #909090;
+    padding: auto;
+}
+nav ul li.right{
+    float: right;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px;
+    color: white;
+}
+nav ul li.hambug{
+    display: none;
+}
+
+
+
+/* ####### :empty ######## */
+@media screen and (max-width: 680px){
+    nav{
+        width: 100%;
+        background-color: blue;
+        height: 50px;
+    }
+    nav ul li.hambug{
+        display: block;
+        float: right;
+    }
+    .none{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+
+
+    
+}
